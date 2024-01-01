@@ -13,14 +13,14 @@ console.log (chalk.blue.underline.bold.bgWhite ("Welcome! " + userName + " TO DO
 function play(question, answer) {
   var userAnswer = readlineSync.question(question);
   if (userAnswer.toUpperCase() === answer.toUpperCase()){
-    console.log("You Are Right! ");
+    console.log((chalk.blue.underline.bold.bgWhite("You Are Right! "));
     score = score + 1;
-    console.log("Current Score : " + score);
+    console.log(chalk.blue.underline.bold.bgWhite("Current Score : " + score));
     console.log("--------");
   }else{
     console.log (chalk.red ("OOps! You Are Wrong! "));
     score = score - 1;
-    console.log("Current Score : " + score);
+    console.log((chalk.blue.underline.bold.bgWhite("Current Score : " + score));
     console.log("--------");
   }
 }
@@ -62,4 +62,4 @@ for(i = 0; i < questions.length; i++ ) {
   play(currentQuestion.question, currentQuestion.answer);
 }
 
-console.log("YAY! YOU SCORED :", score);
+console.log((chalk.blue.underline.bold.bgWhite("YAY! YOU SCORED :", score));
