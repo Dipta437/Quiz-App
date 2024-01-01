@@ -13,7 +13,7 @@ console.log (chalk.blue.underline.bold.bgWhite ("Welcome! " + userName + " TO DO
 function play(question, answer) {
   var userAnswer = readlineSync.question(question);
   if (userAnswer.toUpperCase() === answer.toUpperCase()){
-    console.log((chalk.blue.underline.bold.bgWhite("You Are Right! "));
+    console.log(chalk.blue.underline.bold.bgWhite("You Are Right! "));
     score = score + 1;
     console.log(chalk.blue.underline.bold.bgWhite("Current Score : " + score));
     console.log("--------");
