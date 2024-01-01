@@ -20,7 +20,7 @@ function play(question, answer) {
   }else{
     console.log (chalk.red ("OOps! You Are Wrong! "));
     score = score - 1;
-    console.log((chalk.blue.underline.bold.bgWhite("Current Score : " + score));
+    console.log(chalk.blue.underline.bold.bgWhite("Current Score : " + score));
     console.log("--------");
   }
 }
@@ -62,4 +62,4 @@ for(i = 0; i < questions.length; i++ ) {
   play(currentQuestion.question, currentQuestion.answer);
 }
 
-console.log((chalk.blue.underline.bold.bgWhite("YAY! YOU SCORED :", score));
+console.log(chalk.blue.underline.bold.bgWhite("YAY! YOU SCORED :", score));
