@@ -38,18 +38,23 @@ var questions = [{
 },
 {
   question : "Where Do I work? ",
-  answer : "Britto Digital"
+  answer : "Green Trust Corporation"
 },
 
 {
   question: "Do I Love Programming? ",
-  answer : "I love programming"
+  answer : "Yes!"
 },
 
 {
   question : "Who's my favourite player? ",
   answer : "Shakib Al Hasan"
-}
+},
+                 {
+                   question: "Who's my favourite Super-hero?",
+                   answer: "Tony Stark aka Ironman"
+                 }                 
+                 
 ]
 
 for(i = 0; i < questions.length; i++ ) {
